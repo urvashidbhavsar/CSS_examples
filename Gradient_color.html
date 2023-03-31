@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1 {
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            /* set value to top, to bottom, to left and to right */
+            background-image: linear-gradient(to left, #34efab, #123456, #56789a, #09ab76);
+        }
+
+        .div2 {
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            /* set value circle at top, circle at bottom, circle at right, circle at left */
+            background-image: radial-gradient(circle at center, #ffaabb, #aaccdd, #fedcba);
+        }
+
+        .div3 {
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-image: conic-gradient(green 30deg, greenyellow 143deg, yellow 317deg, green)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+</body>
+
+</html>

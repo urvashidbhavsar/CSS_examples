@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+        ul{list-style: none;}
+        .dropbtn{
+            background-color: aquamarine;
+        }
+        .droplink{
+            background-color: antiquewhite;
+        }
+        .dropmenu{
+            background-color: cadetblue;
+        }
+        .dropbtn {
+            display: inline-block;
+            position: relative;
+        }
+        .dropmenu{
+            display: none;
+            position: absolute;
+            box-shadow: 5px 5px 5px black;
+            width: 100px;
+        }
+        .dropmenu a{
+            color: crimson;
+            padding: 20px;
+            display: block;
+        }
+        .dropbtn:hover .dropmenu{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <ul class="dropbtn">
+        <li><a href="" class="droplink">Menu</a>
+            <div class="dropmenu">
+                <a href="">link 1</a>
+                <a href="">link 2</a>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>

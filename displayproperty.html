@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        .inline-ex{
+            background-color: antiquewhite;
+            /* display: inline; */
+            padding: 20px;
+        }
+        /* parent child */
+        .inline-ex li{
+            display: inline;
+            background-color: cadetblue;
+            height: 200px;
+            width: 200px;
+            padding: 10px;
+        }
+        .inline-b-ex{
+            background-color: bisque;
+        }
+        .inline-b-ex li{
+            display: inline-block;
+            background-color: cadetblue;
+            height: 100px;
+            width: 100px;
+            padding: 20px;
+        }
+        .block{
+            background-color: beige;
+        }
+        .block li{
+            display: block;
+            background-color: aquamarine;
+            height: 50px;
+            width: 100px;
+            padding: 20px;
+        }
+        .main{
+            background-color: aqua;
+            height: 200px;
+            width: 100%;
+            display: flex;
+        }
+        .main .sub1{
+            background-color: aquamarine;
+            height: 200px;
+            width: 33%;
+        }
+        .main .sub2{
+            background-color: blueviolet;
+            height: 200px;
+            width: 33%;
+        }
+        .main .sub3{
+            background-color: brown;
+            height: 200px;
+            width: 34%;
+        }
+        .flexboxex{
+            background-color: aqua;
+            height: 200px;
+            width: 100%;
+            display: flexbox;
+        }
+        .flexboxex .sub1{
+            background-color: aquamarine;
+            height: 200px;
+            width: 33%;
+        }
+        .flexboxex .sub2{
+            background-color: blueviolet;
+            height: 200px;
+            width: 33%;
+        }
+        .flexboxex .sub3{
+            background-color: brown;
+            height: 200px;
+            width: 33%;
+        }
+    </style>
+</head>
+<body>
+    <ul class="inline-ex">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contect</li>
+    </ul>
+    <ul class="inline-b-ex">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contect</li>
+    </ul>
+    <ul class="block">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contect</li>
+    </ul>
+
+    <div class="main">
+        <div class="sub1"></div>
+        <div class="sub2"></div>
+        <div class="sub3"></div>
+    </div>
+    <br><br>
+    <div class="flexboxex">
+        <div class="sub1"></div>
+        <div class="sub2"></div>
+        <div class="sub3"></div>
+    </div>
+</body>
+</html>

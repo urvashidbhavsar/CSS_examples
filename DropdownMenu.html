@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul.menu {
+            background-color: rgb(120, 175, 223);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        li {
+            display: inline-block;
+            padding: 20px;
+        }
+
+        .disp-list li {
+            padding: 10px;
+        }
+
+        .link-list {
+            position: relative;
+        }
+
+        .disp-list {
+            position: absolute;
+            display: none;
+            width: 100px;
+            background-color: lightblue;
+            top: 50px;
+            left: 0;
+        }
+
+        .link-list:hover .disp-list {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="menu">
+        <li><a href="">Home</a></li>
+        <li class="link-list"><a href="">Services</a>
+            <ul class="disp-list">
+                <li><a href="">Service 1</a></li>
+                <li><a href="">Service 2</a></li>
+            </ul>
+        </li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">About As</a></li>
+        <li><a href="">Contact As</a></li>
+    </ul>
+</body>
+
+</html>
