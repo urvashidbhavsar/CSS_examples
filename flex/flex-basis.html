@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            width: 50%;
+            height: 200px;
+            border: 2px solid black;
+            display: flex;
+        }
+
+        .div1 {
+            background-color: aquamarine;
+            width: 10%;
+            height: 200px;
+        }
+
+        .div2 {
+            background-color: rebeccapurple;
+            width: 20%;
+            height: 200px;
+        }
+
+        .div3 {
+            background-color: royalblue;
+            width: 10%;
+            height: 200px;
+        }
+
+        .div4 {
+            background-color: brown;
+            width: 30%;
+            height: 200px;
+        }
+
+        .div5 {
+            background-color: green;
+            width: 30%;
+            height: 200px;
+        }
+
+        div:nth-child(2) {
+            flex-basis: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="div1">div1</div>
+        <div class="div2">div2</div>
+        <div class="div3">div3</div>
+        <div class="div4">div4</div>
+        <div class="div5">div5</div>
+
+    </div>
+</body>
+
+</html>
