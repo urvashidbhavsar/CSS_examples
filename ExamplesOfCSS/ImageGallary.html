@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            border-radius: 10px;
+            border: 5px ridge green;
+            box-shadow: 2px 2px 5px black;
+        }
+
+        .img-1 {
+            height: 200px;
+            width: 300px;
+            transition: 1s all ease;
+        }
+
+        .img-1:hover {
+            transform: rotate(20deg);
+        }
+
+        .img-2 {
+            height: 250px;
+            width: 300px;
+            transition: 1s all ease;
+        }
+
+        .img-2:hover {
+            transform: rotate(-20deg);
+        }
+
+        .img-3 {
+            height: 200px;
+            width: 300px;
+            transition: 1s all ease;
+        }
+
+        .img-3:hover {
+            transform: scale(1.1);
+        }
+
+        .img-4 {
+            height: 200px;
+            width: 300px;
+            transition: 1s all ease;
+        }
+
+        .img-4:hover {
+            transform: scale(.9) rotate(-20deg);
+        }
+
+        .img-5,
+        .img-8 {
+            height: 280px;
+            width: 350px;
+            transition: 1s all ease;
+        }
+
+        .img-5:hover {
+            transform: rotate(10deg);
+        }
+
+        .img-8:hover {
+            transform: translate(-30px);
+        }
+
+        .img-6,
+        .img-7 {
+            height: 250px;
+            width: 300px;
+            transition: 1s all ease;
+        }
+
+        .img-6:hover {
+            transform: translate(30px);
+        }
+
+        .img-7:hover {
+            transform: scale(.9);
+        }
+
+        .gallary {
+            margin: 10px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            justify-content: space-around;
+            align-items: center;
+            background-color: aliceblue;
+        }
+
+        .image {
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gallary">
+        <div class="image">
+            <img src="../images/full_images/an1.jpg" alt="" class="img-1">
+            <img src="../images/full_images/an2.jpg" alt="" class="img-2">
+
+        </div>
+        <div class="image">
+            <img src="../images/full_images/an3.jpg" alt="" class="img-3">
+            <img src="../images/full_images/an4.jpg" alt="" class="img-4">
+        </div>
+        <div class="image">
+            <img src="../images/full_images/an5.jpg" alt="" class="img-5">
+            <img src="../images/full_images/an6.jpg" alt="" class="img-6">
+        </div>
+        <div class="image">
+            <img src="../images/full_images/an7.jpg" alt="" class="img-7">
+            <img src="../images/full_images/f2.jpg" alt="" class="img-8">
+        </div>
+    </div>
+</body>
+
+</html>
