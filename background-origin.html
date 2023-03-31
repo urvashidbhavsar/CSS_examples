@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 500px;
+            width: 500px;
+            border: 10px dashed blue;
+            padding: 20px;
+        }
+        .div1{
+            background-image: url(images/flower1.jpg);
+            /* origin work like set a position in particular div */
+            /* background-origin: border-box; */
+            /* background-origin: content-box; */
+            background-origin: padding-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+</body>
+</html>
