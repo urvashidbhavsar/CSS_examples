@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img1 {
+            height: 300px;
+            width: 300px;
+        }
+
+        .mask1 {
+            height: 300px;
+            width: 300px;
+            /* mask-image: url(../images/text.webp); */
+            /* mask-repeat: no-repeat; */
+            /* mask-image: linear-gradient(pink, rgb(172, 80, 96)); */
+            mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+            mask-mode: alpha;
+            mask-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mask1">
+        <img src="../images/nature.jpg" alt="" class="img1">
+    </div>
+</body>
+
+</html>
